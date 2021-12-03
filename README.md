@@ -1,7 +1,7 @@
 # Project-Euler
 My solutions for [Project Euler](https://projecteuler.net) in Python.
 
-Solved 0 out of 774 problems.
+Solved 1 out of 774 problems.
 
 <br />
 
@@ -9,7 +9,7 @@ Solved 0 out of 774 problems.
 
 |||||||||||
 |:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
-|1|2|3|4|5|6|7|8|9|10|
+|[1](0001-0100\0001\main.py)|2|3|4|5|6|7|8|9|10|
 |11|12|13|14|15|16|17|18|19|20|
 |21|22|23|24|25|26|27|28|29|30|
 |31|32|33|34|35|36|37|38|39|40|
