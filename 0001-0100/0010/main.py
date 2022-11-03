@@ -3,7 +3,7 @@ def get_primes(n):
     numbers = [True for __ in range(m)]
     for i in range(2, int(n**0.5 + 1)):
         if numbers[i]:
-            for j in range(i*i, m, i):
+            for j in range(i * i, m, i):
                 numbers[j] = False
 
     primes = list()
