@@ -30,7 +30,7 @@ def get_simple_lagrange_polynomial(S: list[int]) -> Callable[[int], int]:
 
             sum_result += term_result
 
-        return sum_result
+        return round(sum_result)
 
     return f
 
@@ -42,7 +42,7 @@ def main():
 
     for i in range(1, N):
         f = get_simple_lagrange_polynomial([u(ni) for ni in range(1, i + 1)])
-        matrix.append([round(f(n)) for n in range(1, N)])
+        matrix.append([f(n) for n in range(1, N)])
 
     for i in range(N - 2):
         result += matrix[i][i + 1]
