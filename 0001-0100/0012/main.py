@@ -1,7 +1,9 @@
 from sympy import divisors
 
+
 def triangle_number(n: int) -> int:
-    return n*(n+1) // 2
+    return n * (n + 1) // 2
+
 
 def main():
     n = 1
