@@ -1,7 +1,7 @@
 # Project-Euler
 My solutions for [Project Euler](https://projecteuler.net) in Python.
 
-Solved 22 out of 815 problems.
+Solved 24 out of 815 problems.
 
 <br />
 
