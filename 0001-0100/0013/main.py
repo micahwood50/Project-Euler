@@ -1,6 +1,3 @@
-from unittest import result
-
-
 FILENAME = "input.txt"
 
 
