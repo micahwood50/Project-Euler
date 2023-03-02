@@ -9,7 +9,7 @@ def main():
     result = 0
 
     en = 1
-    while 10**en - 1 <= en*factorial(9):
+    while 10**en - 1 <= en * factorial(9):
         en += 1
 
     for n in range(3, 10**en):
