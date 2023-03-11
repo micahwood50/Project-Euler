@@ -1,7 +1,7 @@
 # Project-Euler
 My solutions for [Project Euler](https://projecteuler.net) in Python.
 
-![My Project Euler Profile Banner](https://projecteuler.net/profile/micahwood50.png)
+![My Project Euler Profile Banner](https://projecteuler.net/profile/micahwood50.png?)
 <br />
 
 # 1 - 100
