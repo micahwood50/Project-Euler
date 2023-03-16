@@ -5,14 +5,14 @@ def main():
     for p in range(12, 1_000):
         solution_set = set()
 
-        for a in range(p//3):
-            for b in range(a, 2*p//3):
+        for a in range(p // 3):
+            for b in range(a, 2 * p // 3):
                 c = p - b - a
 
                 if c <= b:
                     break
 
-                if a ** 2 + b ** 2 == c ** 2:
+                if a**2 + b**2 == c**2:
                     solution_set.add((a, b, c))
 
         if result < len(solution_set):
