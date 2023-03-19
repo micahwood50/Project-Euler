@@ -1,5 +1,6 @@
 def P(n: int) -> int:
-    return n * (3*n - 1) // 2
+    return n * (3 * n - 1) // 2
+
 
 def main():
     L = [1, 5]
@@ -10,8 +11,8 @@ def main():
         L.append(P(n))
         n += 1
 
-        for i in range(len(L)-2, 0, -1):
-            sumP  = L[-1] + L[i]
+        for i in range(len(L) - 2, 0, -1):
+            sumP = L[-1] + L[i]
             diffP = L[-1] - L[i]
 
             if sumP in S and diffP in S:
