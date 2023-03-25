@@ -3,7 +3,6 @@ def nth_prime_number(n):
     num = 3
 
     while len(prime_list) < n:
-
         for p in prime_list:
             if num % p == 0:
                 break
