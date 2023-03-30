@@ -1,7 +1,7 @@
 # Project-Euler
 My solutions for [Project Euler](https://projecteuler.net) in Python.
 
-![My Project Euler Profile Banner](https://projecteuler.net/profile/micahwood50.png?)
+Solved 68 out of 835 problems.
 <br />
 
 # 1 - 100
