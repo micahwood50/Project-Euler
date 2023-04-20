@@ -3,7 +3,7 @@ from sympy import primerange
 from bisect import bisect
 
 
-MAX_PRIME_BOUND = 1_000
+MAX_PRIME_BOUND = 200
 PRIME_LIST = list(primerange(0, MAX_PRIME_BOUND))
 
 
@@ -31,7 +31,7 @@ def _dp_count_sum_primes(n: int, index: int) -> int:
 
 def main():
     low_n = 10
-    high_n = 100
+    high_n = MAX_PRIME_BOUND
     count_target = 5_000
 
     while low_n < high_n:
