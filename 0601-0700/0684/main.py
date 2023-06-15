@@ -2,6 +2,7 @@ from itertools import accumulate
 
 MOD_N = 1_000_000_007
 
+
 def s(n):
     if n < 0:
         return 0
@@ -14,8 +15,9 @@ def s(n):
 
     return int(str(n % 9) + "9" * (n // 9))
 
+
 def S(k):
-    return sum(s(n) for n in range(1, k+1))
+    return sum(s(n) for n in range(1, k + 1))
 
 
 def f(n):
@@ -25,7 +27,7 @@ def f(n):
     a, b = 0, 1
 
     for __ in range(n):
-        a, b = b, a+b
+        a, b = b, a + b
 
     return a
 
