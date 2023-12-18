@@ -20,7 +20,7 @@ def bounded_pi(n: int, upper_bound: int) -> int:
 def main():
     result = 0
 
-    for n in range(TARGET_NUM, UPPER_BOUND):
+    for n in range(2, UPPER_BOUND):
         if bounded_pi(n, TARGET_NUM) == TARGET_NUM:
             result += n
 
