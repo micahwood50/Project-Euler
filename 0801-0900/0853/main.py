@@ -11,7 +11,7 @@ def bounded_pi(n: int, upper_bound: int) -> int:
         if result > upper_bound:
             return -1
 
-        a, b = b, (a+b)%n
+        a, b = b, (a + b) % n
         result += 1
 
     return result
